@@ -18,7 +18,7 @@ class Home extends CI_Controller {
              echo "<script>
                 alertify.alert('Informasi diterima.');
                 setTimeout(function(){
-                  location.href = 'https://www.asiajayasteel.com/backend/home/index';
+                  location.href = 'http://localhost/asiajayasteel/backend/home/index';
             }, 2000);
               </script>";  
            }
